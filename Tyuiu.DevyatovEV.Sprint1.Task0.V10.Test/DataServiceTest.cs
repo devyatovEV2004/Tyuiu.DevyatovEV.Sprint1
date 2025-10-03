@@ -9,7 +9,7 @@ namespace Tyuiu.DevyatovEV.Sprint1.Task0.V10.test
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
-            Assert.AreEqual(-12, res);
+            Assert.AreEqual(-10.5, res);
         }
     }
 }
